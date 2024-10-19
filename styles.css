@@ -1,0 +1,242 @@
+/* Reset some default browser styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: poppins, sans-serif;
+    background-color: #aa3535;
+    
+}   
+h2 {color: green;}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-image: url('images/background.jpg'); /* Replace with your image file path */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding:200px 2px  ;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-size: 54px;
+    margin-top: 100;
+    color:black;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:4rem;
+    
+
+}
+
+
+nav ul {
+    list-style: none;
+    position: "absolute ";
+    top:0;
+    justify-content: space-between;
+    margin-bottom:2rem;
+    width: 100%;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 10% 5%;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    
+
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+   
+}
+}
+
+#hero {
+    background-image: url('images/background.jpg.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#hero h2 {
+    font-size: 36px;
+}
+
+#hero p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e84c22;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#about, #features, #contact {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#about h2, #features h2, #contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+.feature h3 {
+    font-size: 24px;
+}
+
+footer {
+    background-color: #920909;
+    color: #fff;
+    text-align: center;
+    padding: 0;
+}
+/* Add some hover effects for the primary button */
+.btn-primary:hover {
+    background-color: #d63d10;
+}
+
+/* Style the navigation links */
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Style the contact form (if you have one) */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    height: 150px;
+}
+
+/* Style the footer links */
+footer a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 20px;
+    }
+
+    header ul {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    header li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    #hero {
+        background-position: center;
+    }
+}
+
+/* Add these styles for the feature images */
+.feature img {
+    max-width: 220px;
+    height: auto;
+    margin-bottom: 50px;
+    border-radius: 30%;
+    padding: 1;
+
+}
+
+/* Adjust feature box styles if necessary */
+.feature {
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 4.5rem;
+    display: inline-block;
+}
+
+.feature h3 {
+    font-size: 23px;
+    margin-bottom: 1rem;
+
+}
+
+#about{
+    padding:20px 5%;
+}
+#about img{
+    margin-top:40px;
+}
+#contact{
+    padding: 50px 7%;
+}
+
+/* Additional media queries for smaller screens can be added here */
+
+selection form{
+    max-width: 600px;
+    display: flex
+    flex-direction:column;
+    align-iteam:center;
+    margin-left:auto;
+    margin-right:auto;
+    pad
+
+}
